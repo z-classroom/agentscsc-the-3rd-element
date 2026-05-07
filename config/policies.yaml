@@ -13,8 +13,8 @@ rules:
       - "(how to hack)"
       - "(build a bomb)"
       - "(phishing)"
-      - "YOUR: modify above or add more"
-      - "YOUR: add more"
+      - "(bypass security)"
+      - "(exploit vulnerability)"
 
   - id: "no_identity_claims"
     description: "Do not claim professional authority or impersonate experts"
@@ -22,8 +22,8 @@ rules:
       - "(i am a doctor)"
       - "(i am your lawyer)"
       - "(verified)"
-      - "YOUR: modify above or add more"
-      - "YOUR: add two more at minimum"
+      - "(i am a licensed)"
+      - "(trust me i am)"
 
   - id: "prompt_injection"
     description: "Detect instruction override attempts"
